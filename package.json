@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-postgresql",
+  "version": "1.0.0",
+  "description": "Node js Restful CRUD API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -r esm server.js",
+    "dev": "set NODE_ENV=development&& nodemon server.js",
+    "test": "set NODE_ENV=test&& mocha test/*.js --exit"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql"
+  ],
+  "author": "lemoncode21",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2"
+  }
+}
